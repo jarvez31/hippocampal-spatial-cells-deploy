@@ -5,7 +5,7 @@ import pickle
 
 
 def load_trajectory(env: list, data_dir: str):
-    filepath = os.path.join(data_dir, env)
+    filepath = os.path.join(data_dir, env + ".csv")
     if filepath.endswith(".pk1"):
         with open(filepath, "rb") as f:
             d = pickle.load(f)
