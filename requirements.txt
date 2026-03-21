@@ -1,6 +1,8 @@
-fastapi
-uvicorn
-numpy
-scipy
-scikit-learn
-tensorflow
+fastapi==0.135.1
+uvicorn==0.42.0
+numpy==1.26.4
+scipy==1.17.1
+scikit-learn==1.8.0
+tensorflow==2.16.2
+pandas==3.0.1
+pydantic==2.12.5
